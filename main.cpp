@@ -1,4 +1,5 @@
 #include <iostream>
+#include "LinkedList.hpp"
 
 using namespace std;
 int main(){
@@ -13,7 +14,8 @@ int main(){
       cin>> selection;
       
       if(selection == 1){
-         cout << "1";
+         LinkedList lnkdlst;
+         lnkdlst.run();
       }
       
    }while(selection != 2);
